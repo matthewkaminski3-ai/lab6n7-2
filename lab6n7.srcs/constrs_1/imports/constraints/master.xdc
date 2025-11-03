@@ -67,11 +67,11 @@ connect_debug_port u_ila_0/probe3 [get_nets [list {uart_rx_inst/bit_index_q[0]} 
 create_debug_port u_ila_0 probe
 set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe4]
 set_property port_width 1 [get_debug_ports u_ila_0/probe4]
-connect_debug_port u_ila_0/probe4 [get_nets [list uart_rx_inst/frame_error_sticky_d]]
+connect_debug_port u_ila_0/probe4 [get_nets [list frame_error]]
 create_debug_port u_ila_0 probe
 set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe5]
 set_property port_width 1 [get_debug_ports u_ila_0/probe5]
-connect_debug_port u_ila_0/probe5 [get_nets [list uart_rx_inst/frame_error_sticky_OBUF]]
+connect_debug_port u_ila_0/probe5 [get_nets [list frame_error_sticky]]
 create_debug_port u_ila_0 probe
 set_property PROBE_TYPE DATA_AND_TRIGGER [get_debug_ports u_ila_0/probe6]
 set_property port_width 1 [get_debug_ports u_ila_0/probe6]

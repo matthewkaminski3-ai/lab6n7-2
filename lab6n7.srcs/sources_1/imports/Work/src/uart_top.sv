@@ -21,7 +21,7 @@ module uart_top #(
     logic debounced_btn;
     logic transmit_pulse;
     logic uart_rx_sync;
-    logic frame_error;
+    (* keep = "true" *) logic frame_error;
     logic frame_error_sticky_int;
     logic tx_busy;
 
