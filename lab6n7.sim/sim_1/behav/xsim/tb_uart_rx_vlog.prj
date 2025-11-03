@@ -1,0 +1,11 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  --include "../../../../lab6n7.ip_user_files/ipstatic" \
+"../../../../lab6n7.srcs/sources_1/imports/Work/third_party/baud_gen.sv" \
+"../../../../lab6n7.srcs/sources_1/imports/Work/src/uart_rx.sv" \
+"../../../../lab6n7.srcs/sources_1/imports/Work/tb/tb_uart_rx.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

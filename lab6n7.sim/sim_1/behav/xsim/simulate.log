@@ -1,0 +1,3 @@
+Time resolution is 1 ps
+Observed frame_error pulse during bad stop bit.
+rx_data held previous valid byte (0x41) during framing error.

@@ -1,0 +1,1916 @@
+# Expanded Netlist (Vivado 2024.1)
+# Run dir: W:/ELEC 3500/lab6n7/Work/lab6n7/lab6n7.runs/synth_1
+# Mode: local-only
+
+INST: uart_top
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: baud_gen_inst
+  Nets (113):
+    baud_gen_inst/<const0>
+    baud_gen_inst/<const1>
+    baud_gen_inst/accumulator0[0]
+    baud_gen_inst/accumulator0[10]
+    baud_gen_inst/accumulator0[11]
+    baud_gen_inst/accumulator0[12]
+    baud_gen_inst/accumulator0[13]
+    baud_gen_inst/accumulator0[14]
+    baud_gen_inst/accumulator0[15]
+    baud_gen_inst/accumulator0[16]
+    baud_gen_inst/accumulator0[17]
+    baud_gen_inst/accumulator0[18]
+    baud_gen_inst/accumulator0[19]
+    baud_gen_inst/accumulator0[1]
+    baud_gen_inst/accumulator0[20]
+    baud_gen_inst/accumulator0[21]
+    baud_gen_inst/accumulator0[22]
+    baud_gen_inst/accumulator0[23]
+    baud_gen_inst/accumulator0[24]
+    baud_gen_inst/accumulator0[25]
+    baud_gen_inst/accumulator0[26]
+    baud_gen_inst/accumulator0[27]
+    baud_gen_inst/accumulator0[28]
+    baud_gen_inst/accumulator0[29]
+    baud_gen_inst/accumulator0[2]
+    baud_gen_inst/accumulator0[30]
+    baud_gen_inst/accumulator0[31]
+    baud_gen_inst/accumulator0[32]
+    baud_gen_inst/accumulator0[3]
+    baud_gen_inst/accumulator0[4]
+    baud_gen_inst/accumulator0[5]
+    baud_gen_inst/accumulator0[6]
+    baud_gen_inst/accumulator0[7]
+    baud_gen_inst/accumulator0[8]
+    baud_gen_inst/accumulator0[9]
+    baud_gen_inst/accumulator[12]_i_2_n_0
+    baud_gen_inst/accumulator[16]_i_2_n_0
+    baud_gen_inst/accumulator[16]_i_3_n_0
+    baud_gen_inst/accumulator[20]_i_2_n_0
+    baud_gen_inst/accumulator[24]_i_2_n_0
+    baud_gen_inst/accumulator[24]_i_3_n_0
+    baud_gen_inst/accumulator[4]_i_2_n_0
+    baud_gen_inst/accumulator[4]_i_3_n_0
+    baud_gen_inst/accumulator[8]_i_2_n_0
+    baud_gen_inst/accumulator[8]_i_3_n_0
+    baud_gen_inst/accumulator[8]_i_4_n_0
+    baud_gen_inst/accumulator_reg[12]_i_1_n_0
+    baud_gen_inst/accumulator_reg[12]_i_1_n_1
+    baud_gen_inst/accumulator_reg[12]_i_1_n_2
+    baud_gen_inst/accumulator_reg[12]_i_1_n_3
+    baud_gen_inst/accumulator_reg[16]_i_1_n_0
+    baud_gen_inst/accumulator_reg[16]_i_1_n_1
+    baud_gen_inst/accumulator_reg[16]_i_1_n_2
+    baud_gen_inst/accumulator_reg[16]_i_1_n_3
+    baud_gen_inst/accumulator_reg[20]_i_1_n_0
+    baud_gen_inst/accumulator_reg[20]_i_1_n_1
+    baud_gen_inst/accumulator_reg[20]_i_1_n_2
+    baud_gen_inst/accumulator_reg[20]_i_1_n_3
+    baud_gen_inst/accumulator_reg[24]_i_1_n_0
+    baud_gen_inst/accumulator_reg[24]_i_1_n_1
+    baud_gen_inst/accumulator_reg[24]_i_1_n_2
+    baud_gen_inst/accumulator_reg[24]_i_1_n_3
+    baud_gen_inst/accumulator_reg[28]_i_1_n_0
+    baud_gen_inst/accumulator_reg[28]_i_1_n_1
+    baud_gen_inst/accumulator_reg[28]_i_1_n_2
+    baud_gen_inst/accumulator_reg[28]_i_1_n_3
+    baud_gen_inst/accumulator_reg[31]_i_1_n_2
+    baud_gen_inst/accumulator_reg[31]_i_1_n_3
+    baud_gen_inst/accumulator_reg[4]_i_1_n_0
+    baud_gen_inst/accumulator_reg[4]_i_1_n_1
+    baud_gen_inst/accumulator_reg[4]_i_1_n_2
+    baud_gen_inst/accumulator_reg[4]_i_1_n_3
+    baud_gen_inst/accumulator_reg[8]_i_1_n_0
+    baud_gen_inst/accumulator_reg[8]_i_1_n_1
+    baud_gen_inst/accumulator_reg[8]_i_1_n_2
+    baud_gen_inst/accumulator_reg[8]_i_1_n_3
+    baud_gen_inst/accumulator_reg_n_0_[0]
+    baud_gen_inst/accumulator_reg_n_0_[10]
+    baud_gen_inst/accumulator_reg_n_0_[11]
+    baud_gen_inst/accumulator_reg_n_0_[12]
+    baud_gen_inst/accumulator_reg_n_0_[13]
+    baud_gen_inst/accumulator_reg_n_0_[14]
+    baud_gen_inst/accumulator_reg_n_0_[15]
+    baud_gen_inst/accumulator_reg_n_0_[16]
+    baud_gen_inst/accumulator_reg_n_0_[17]
+    baud_gen_inst/accumulator_reg_n_0_[18]
+    baud_gen_inst/accumulator_reg_n_0_[19]
+    baud_gen_inst/accumulator_reg_n_0_[1]
+    baud_gen_inst/accumulator_reg_n_0_[20]
+    baud_gen_inst/accumulator_reg_n_0_[21]
+    baud_gen_inst/accumulator_reg_n_0_[22]
+    baud_gen_inst/accumulator_reg_n_0_[23]
+    baud_gen_inst/accumulator_reg_n_0_[24]
+    baud_gen_inst/accumulator_reg_n_0_[25]
+    baud_gen_inst/accumulator_reg_n_0_[26]
+    baud_gen_inst/accumulator_reg_n_0_[27]
+    baud_gen_inst/accumulator_reg_n_0_[28]
+    baud_gen_inst/accumulator_reg_n_0_[29]
+    baud_gen_inst/accumulator_reg_n_0_[2]
+    baud_gen_inst/accumulator_reg_n_0_[30]
+    baud_gen_inst/accumulator_reg_n_0_[31]
+    baud_gen_inst/accumulator_reg_n_0_[3]
+    baud_gen_inst/accumulator_reg_n_0_[4]
+    baud_gen_inst/accumulator_reg_n_0_[5]
+    baud_gen_inst/accumulator_reg_n_0_[6]
+    baud_gen_inst/accumulator_reg_n_0_[7]
+    baud_gen_inst/accumulator_reg_n_0_[8]
+    baud_gen_inst/accumulator_reg_n_0_[9]
+    baud_gen_inst/clk_out1
+    baud_gen_inst/locked
+    baud_gen_inst/reset
+    baud_gen_inst/rst_sync
+    baud_gen_inst/tick_16x
+  Leaf Cells (56):
+    baud_gen_inst/FSM_sequential_state_q[1]_i_1__0  (LUT2)
+    baud_gen_inst/GND  (GND)
+    baud_gen_inst/VCC  (VCC)
+    baud_gen_inst/accumulator[0]_i_1  (LUT1)
+    baud_gen_inst/accumulator[12]_i_2  (LUT1)
+    baud_gen_inst/accumulator[16]_i_2  (LUT1)
+    baud_gen_inst/accumulator[16]_i_3  (LUT1)
+    baud_gen_inst/accumulator[20]_i_2  (LUT1)
+    baud_gen_inst/accumulator[24]_i_2  (LUT1)
+    baud_gen_inst/accumulator[24]_i_3  (LUT1)
+    baud_gen_inst/accumulator[4]_i_2  (LUT1)
+    baud_gen_inst/accumulator[4]_i_3  (LUT1)
+    baud_gen_inst/accumulator[8]_i_2  (LUT1)
+    baud_gen_inst/accumulator[8]_i_3  (LUT1)
+    baud_gen_inst/accumulator[8]_i_4  (LUT1)
+    baud_gen_inst/accumulator_reg[0]  (FDRE)
+    baud_gen_inst/accumulator_reg[10]  (FDRE)
+    baud_gen_inst/accumulator_reg[11]  (FDRE)
+    baud_gen_inst/accumulator_reg[12]  (FDRE)
+    baud_gen_inst/accumulator_reg[12]_i_1  (CARRY4)
+    baud_gen_inst/accumulator_reg[13]  (FDRE)
+    baud_gen_inst/accumulator_reg[14]  (FDRE)
+    baud_gen_inst/accumulator_reg[15]  (FDRE)
+    baud_gen_inst/accumulator_reg[16]  (FDRE)
+    baud_gen_inst/accumulator_reg[16]_i_1  (CARRY4)
+    baud_gen_inst/accumulator_reg[17]  (FDRE)
+    baud_gen_inst/accumulator_reg[18]  (FDRE)
+    baud_gen_inst/accumulator_reg[19]  (FDRE)
+    baud_gen_inst/accumulator_reg[1]  (FDRE)
+    baud_gen_inst/accumulator_reg[20]  (FDRE)
+    baud_gen_inst/accumulator_reg[20]_i_1  (CARRY4)
+    baud_gen_inst/accumulator_reg[21]  (FDRE)
+    baud_gen_inst/accumulator_reg[22]  (FDRE)
+    baud_gen_inst/accumulator_reg[23]  (FDRE)
+    baud_gen_inst/accumulator_reg[24]  (FDRE)
+    baud_gen_inst/accumulator_reg[24]_i_1  (CARRY4)
+    baud_gen_inst/accumulator_reg[25]  (FDRE)
+    baud_gen_inst/accumulator_reg[26]  (FDRE)
+    baud_gen_inst/accumulator_reg[27]  (FDRE)
+    baud_gen_inst/accumulator_reg[28]  (FDRE)
+    baud_gen_inst/accumulator_reg[28]_i_1  (CARRY4)
+    baud_gen_inst/accumulator_reg[29]  (FDRE)
+    baud_gen_inst/accumulator_reg[2]  (FDRE)
+    baud_gen_inst/accumulator_reg[30]  (FDRE)
+    baud_gen_inst/accumulator_reg[31]  (FDRE)
+    baud_gen_inst/accumulator_reg[31]_i_1  (CARRY4)
+    baud_gen_inst/accumulator_reg[3]  (FDRE)
+    baud_gen_inst/accumulator_reg[4]  (FDRE)
+    baud_gen_inst/accumulator_reg[4]_i_1  (CARRY4)
+    baud_gen_inst/accumulator_reg[5]  (FDRE)
+    baud_gen_inst/accumulator_reg[6]  (FDRE)
+    baud_gen_inst/accumulator_reg[7]  (FDRE)
+    baud_gen_inst/accumulator_reg[8]  (FDRE)
+    baud_gen_inst/accumulator_reg[8]_i_1  (CARRY4)
+    baud_gen_inst/accumulator_reg[9]  (FDRE)
+    baud_gen_inst/tick_16x_reg  (FDRE)
+
+INST: clock_gen_inst
+  Nets (4):
+    clock_gen_inst/clk_in1
+    clock_gen_inst/clk_out1
+    clock_gen_inst/locked
+    clock_gen_inst/reset
+  Leaf Cells (6):
+    clock_gen_inst/inst/GND  (GND)
+    clock_gen_inst/inst/VCC  (VCC)
+    clock_gen_inst/inst/clkf_buf  (BUFG)
+    clock_gen_inst/inst/clkin1_ibufg  (IBUF)
+    clock_gen_inst/inst/clkout1_buf  (BUFG)
+    clock_gen_inst/inst/mmcm_adv_inst  (MMCME2_ADV)
+
+INST: debouncer_inst
+  Nets (73):
+    debouncer_inst/<const0>
+    debouncer_inst/<const1>
+    debouncer_inst/btn_out_i_1_n_0
+    debouncer_inst/clk_out1
+    debouncer_inst/cnt[0]_i_1_n_0
+    debouncer_inst/cnt[0]_i_3_n_0
+    debouncer_inst/cnt[0]_i_4_n_0
+    debouncer_inst/cnt[0]_i_5_n_0
+    debouncer_inst/cnt[0]_i_6_n_0
+    debouncer_inst/cnt[0]_i_7_n_0
+    debouncer_inst/cnt_reg[0]_i_2_n_0
+    debouncer_inst/cnt_reg[0]_i_2_n_1
+    debouncer_inst/cnt_reg[0]_i_2_n_2
+    debouncer_inst/cnt_reg[0]_i_2_n_3
+    debouncer_inst/cnt_reg[0]_i_2_n_4
+    debouncer_inst/cnt_reg[0]_i_2_n_5
+    debouncer_inst/cnt_reg[0]_i_2_n_6
+    debouncer_inst/cnt_reg[0]_i_2_n_7
+    debouncer_inst/cnt_reg[10]
+    debouncer_inst/cnt_reg[11]
+    debouncer_inst/cnt_reg[12]
+    debouncer_inst/cnt_reg[12]_i_1_n_0
+    debouncer_inst/cnt_reg[12]_i_1_n_1
+    debouncer_inst/cnt_reg[12]_i_1_n_2
+    debouncer_inst/cnt_reg[12]_i_1_n_3
+    debouncer_inst/cnt_reg[12]_i_1_n_4
+    debouncer_inst/cnt_reg[12]_i_1_n_5
+    debouncer_inst/cnt_reg[12]_i_1_n_6
+    debouncer_inst/cnt_reg[12]_i_1_n_7
+    debouncer_inst/cnt_reg[13]
+    debouncer_inst/cnt_reg[14]
+    debouncer_inst/cnt_reg[15]
+    debouncer_inst/cnt_reg[16]
+    debouncer_inst/cnt_reg[16]_i_1_n_2
+    debouncer_inst/cnt_reg[16]_i_1_n_3
+    debouncer_inst/cnt_reg[16]_i_1_n_5
+    debouncer_inst/cnt_reg[16]_i_1_n_6
+    debouncer_inst/cnt_reg[16]_i_1_n_7
+    debouncer_inst/cnt_reg[17]
+    debouncer_inst/cnt_reg[18]
+    debouncer_inst/cnt_reg[4]_i_1_n_0
+    debouncer_inst/cnt_reg[4]_i_1_n_1
+    debouncer_inst/cnt_reg[4]_i_1_n_2
+    debouncer_inst/cnt_reg[4]_i_1_n_3
+    debouncer_inst/cnt_reg[4]_i_1_n_4
+    debouncer_inst/cnt_reg[4]_i_1_n_5
+    debouncer_inst/cnt_reg[4]_i_1_n_6
+    debouncer_inst/cnt_reg[4]_i_1_n_7
+    debouncer_inst/cnt_reg[5]
+    debouncer_inst/cnt_reg[6]
+    debouncer_inst/cnt_reg[7]
+    debouncer_inst/cnt_reg[8]
+    debouncer_inst/cnt_reg[8]_i_1_n_0
+    debouncer_inst/cnt_reg[8]_i_1_n_1
+    debouncer_inst/cnt_reg[8]_i_1_n_2
+    debouncer_inst/cnt_reg[8]_i_1_n_3
+    debouncer_inst/cnt_reg[8]_i_1_n_4
+    debouncer_inst/cnt_reg[8]_i_1_n_5
+    debouncer_inst/cnt_reg[8]_i_1_n_6
+    debouncer_inst/cnt_reg[8]_i_1_n_7
+    debouncer_inst/cnt_reg[9]
+    debouncer_inst/cnt_reg_n_0_[0]
+    debouncer_inst/cnt_reg_n_0_[1]
+    debouncer_inst/cnt_reg_n_0_[2]
+    debouncer_inst/cnt_reg_n_0_[3]
+    debouncer_inst/cnt_reg_n_0_[4]
+    debouncer_inst/debounced_btn
+    debouncer_inst/in0
+    debouncer_inst/locked
+    debouncer_inst/reset
+    debouncer_inst/rst_sync
+    debouncer_inst/sync0
+    debouncer_inst/sync1
+  Leaf Cells (36):
+    debouncer_inst/GND  (GND)
+    debouncer_inst/VCC  (VCC)
+    debouncer_inst/btn_out_i_1  (LUT3)
+    debouncer_inst/btn_out_reg  (FDRE)
+    debouncer_inst/cnt[0]_i_1  (LUT5)
+    debouncer_inst/cnt[0]_i_3  (LUT5)
+    debouncer_inst/cnt[0]_i_4  (LUT1)
+    debouncer_inst/cnt[0]_i_5  (LUT4)
+    debouncer_inst/cnt[0]_i_6  (LUT4)
+    debouncer_inst/cnt[0]_i_7  (LUT4)
+    debouncer_inst/cnt_reg[0]  (FDRE)
+    debouncer_inst/cnt_reg[0]_i_2  (CARRY4)
+    debouncer_inst/cnt_reg[10]  (FDRE)
+    debouncer_inst/cnt_reg[11]  (FDRE)
+    debouncer_inst/cnt_reg[12]  (FDRE)
+    debouncer_inst/cnt_reg[12]_i_1  (CARRY4)
+    debouncer_inst/cnt_reg[13]  (FDRE)
+    debouncer_inst/cnt_reg[14]  (FDRE)
+    debouncer_inst/cnt_reg[15]  (FDRE)
+    debouncer_inst/cnt_reg[16]  (FDRE)
+    debouncer_inst/cnt_reg[16]_i_1  (CARRY4)
+    debouncer_inst/cnt_reg[17]  (FDRE)
+    debouncer_inst/cnt_reg[18]  (FDRE)
+    debouncer_inst/cnt_reg[1]  (FDRE)
+    debouncer_inst/cnt_reg[2]  (FDRE)
+    debouncer_inst/cnt_reg[3]  (FDRE)
+    debouncer_inst/cnt_reg[4]  (FDRE)
+    debouncer_inst/cnt_reg[4]_i_1  (CARRY4)
+    debouncer_inst/cnt_reg[5]  (FDRE)
+    debouncer_inst/cnt_reg[6]  (FDRE)
+    debouncer_inst/cnt_reg[7]  (FDRE)
+    debouncer_inst/cnt_reg[8]  (FDRE)
+    debouncer_inst/cnt_reg[8]_i_1  (CARRY4)
+    debouncer_inst/cnt_reg[9]  (FDRE)
+    debouncer_inst/sync0_reg  (FDRE)
+    debouncer_inst/sync1_reg  (FDRE)
+
+INST: edge_tx
+  Nets (5):
+    edge_tx/<const1>
+    edge_tx/clk_out1
+    edge_tx/debounced_btn
+    edge_tx/rst_sync
+    edge_tx/sig_d
+  Leaf Cells (2):
+    edge_tx/VCC  (VCC)
+    edge_tx/sig_d_reg  (FDRE)
+
+INST: frame_error_sticky_OBUF_inst
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: rst_IBUF_inst
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: rx_data_OBUF[0]_inst
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: rx_data_OBUF[1]_inst
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: rx_data_OBUF[2]_inst
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: rx_data_OBUF[3]_inst
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: rx_data_OBUF[4]_inst
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: rx_data_OBUF[5]_inst
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: rx_data_OBUF[6]_inst
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: rx_data_OBUF[7]_inst
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: sync_rx
+  Nets (7):
+    sync_rx/<const1>
+    sync_rx/clk_out1
+    sync_rx/meta_q
+    sync_rx/rst_sync
+    sync_rx/sync_q_reg_0
+    sync_rx/uart_rx_in_async_IBUF
+    sync_rx/uart_rx_sync
+  Leaf Cells (4):
+    sync_rx/VCC  (VCC)
+    sync_rx/frame_error_sticky_q_i_2  (LUT1)
+    sync_rx/meta_q_reg  (FDSE)
+    sync_rx/sync_q_reg  (FDSE)
+
+INST: transmit_btn_IBUF_inst
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: tx_data_IBUF[0]_inst
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: tx_data_IBUF[1]_inst
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: tx_data_IBUF[2]_inst
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: tx_data_IBUF[3]_inst
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: tx_data_IBUF[4]_inst
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: tx_data_IBUF[5]_inst
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: tx_data_IBUF[6]_inst
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: tx_data_IBUF[7]_inst
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: uart_rx_in_async_IBUF_inst
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: uart_rx_inst
+  Nets (62):
+    uart_rx_inst/<const1>
+    uart_rx_inst/FSM_sequential_state_q[0]_i_1_n_0
+    uart_rx_inst/FSM_sequential_state_q[1]_i_2_n_0
+    uart_rx_inst/FSM_sequential_state_q[1]_i_3_n_0
+    uart_rx_inst/FSM_sequential_state_q[1]_i_4_n_0
+    uart_rx_inst/Q[0]
+    uart_rx_inst/Q[1]
+    uart_rx_inst/Q[2]
+    uart_rx_inst/Q[3]
+    uart_rx_inst/Q[4]
+    uart_rx_inst/Q[5]
+    uart_rx_inst/Q[6]
+    uart_rx_inst/Q[7]
+    uart_rx_inst/bit_index_d
+    uart_rx_inst/bit_index_q[0]
+    uart_rx_inst/bit_index_q[0]_i_1_n_0
+    uart_rx_inst/bit_index_q[1]
+    uart_rx_inst/bit_index_q[1]_i_1_n_0
+    uart_rx_inst/bit_index_q[2]
+    uart_rx_inst/bit_index_q[2]_i_1_n_0
+    uart_rx_inst/bit_index_q[3]
+    uart_rx_inst/bit_index_q[3]_i_2_n_0
+    uart_rx_inst/bit_index_q[3]_i_3_n_0
+    uart_rx_inst/bit_index_q[3]_i_4_n_0
+    uart_rx_inst/clk_out1
+    uart_rx_inst/frame_error_sticky_OBUF
+    uart_rx_inst/frame_error_sticky_d
+    uart_rx_inst/frame_error_sticky_q_reg_0
+    uart_rx_inst/rst_sync
+    uart_rx_inst/rx_data_q[7]_i_1_n_0
+    uart_rx_inst/rx_data_q[7]_i_2_n_0
+    uart_rx_inst/shift_reg_q[0]_i_1_n_0
+    uart_rx_inst/shift_reg_q[1]_i_1_n_0
+    uart_rx_inst/shift_reg_q[2]_i_1_n_0
+    uart_rx_inst/shift_reg_q[3]_i_1_n_0
+    uart_rx_inst/shift_reg_q[3]_i_2_n_0
+    uart_rx_inst/shift_reg_q[4]_i_1_n_0
+    uart_rx_inst/shift_reg_q[5]_i_1_n_0
+    uart_rx_inst/shift_reg_q[6]_i_1_n_0
+    uart_rx_inst/shift_reg_q[7]_i_1_n_0
+    uart_rx_inst/shift_reg_q[7]_i_2_n_0
+    uart_rx_inst/shift_reg_q_reg_n_0_[0]
+    uart_rx_inst/shift_reg_q_reg_n_0_[1]
+    uart_rx_inst/shift_reg_q_reg_n_0_[2]
+    uart_rx_inst/shift_reg_q_reg_n_0_[3]
+    uart_rx_inst/shift_reg_q_reg_n_0_[4]
+    uart_rx_inst/shift_reg_q_reg_n_0_[5]
+    uart_rx_inst/shift_reg_q_reg_n_0_[6]
+    uart_rx_inst/shift_reg_q_reg_n_0_[7]
+    uart_rx_inst/state_q[0]
+    uart_rx_inst/state_q[1]
+    uart_rx_inst/tick_16x
+    uart_rx_inst/tick_count_d
+    uart_rx_inst/tick_count_q[0]
+    uart_rx_inst/tick_count_q[0]_i_1_n_0
+    uart_rx_inst/tick_count_q[1]
+    uart_rx_inst/tick_count_q[1]_i_1_n_0
+    uart_rx_inst/tick_count_q[2]
+    uart_rx_inst/tick_count_q[2]_i_1__0_n_0
+    uart_rx_inst/tick_count_q[3]
+    uart_rx_inst/tick_count_q[3]_i_2__0_n_0
+    uart_rx_inst/uart_rx_sync
+  Leaf Cells (57):
+    uart_rx_inst/FSM_sequential_state_q[0]_i_1  (LUT6)
+    uart_rx_inst/FSM_sequential_state_q[1]_i_2  (LUT5)
+    uart_rx_inst/FSM_sequential_state_q[1]_i_3  (LUT4)
+    uart_rx_inst/FSM_sequential_state_q[1]_i_4  (LUT6)
+    uart_rx_inst/FSM_sequential_state_q_reg[0]  (FDRE)
+    uart_rx_inst/FSM_sequential_state_q_reg[1]  (FDRE)
+    uart_rx_inst/VCC  (VCC)
+    uart_rx_inst/bit_index_q[0]_i_1  (LUT2)
+    uart_rx_inst/bit_index_q[1]_i_1  (LUT3)
+    uart_rx_inst/bit_index_q[2]_i_1  (LUT4)
+    uart_rx_inst/bit_index_q[3]_i_1  (LUT6)
+    uart_rx_inst/bit_index_q[3]_i_2  (LUT5)
+    uart_rx_inst/bit_index_q[3]_i_3  (LUT2)
+    uart_rx_inst/bit_index_q[3]_i_4  (LUT5)
+    uart_rx_inst/bit_index_q_reg[0]  (FDRE)
+    uart_rx_inst/bit_index_q_reg[1]  (FDRE)
+    uart_rx_inst/bit_index_q_reg[2]  (FDRE)
+    uart_rx_inst/bit_index_q_reg[3]  (FDRE)
+    uart_rx_inst/frame_error_sticky_q_i_1  (LUT3)
+    uart_rx_inst/frame_error_sticky_q_reg  (FDRE)
+    uart_rx_inst/rx_data_q[7]_i_1  (LUT4)
+    uart_rx_inst/rx_data_q[7]_i_2  (LUT5)
+    uart_rx_inst/rx_data_q_reg[0]  (FDRE)
+    uart_rx_inst/rx_data_q_reg[1]  (FDRE)
+    uart_rx_inst/rx_data_q_reg[2]  (FDRE)
+    uart_rx_inst/rx_data_q_reg[3]  (FDRE)
+    uart_rx_inst/rx_data_q_reg[4]  (FDRE)
+    uart_rx_inst/rx_data_q_reg[5]  (FDRE)
+    uart_rx_inst/rx_data_q_reg[6]  (FDRE)
+    uart_rx_inst/rx_data_q_reg[7]  (FDRE)
+    uart_rx_inst/shift_reg_q[0]_i_1  (LUT5)
+    uart_rx_inst/shift_reg_q[1]_i_1  (LUT5)
+    uart_rx_inst/shift_reg_q[2]_i_1  (LUT5)
+    uart_rx_inst/shift_reg_q[3]_i_1  (LUT5)
+    uart_rx_inst/shift_reg_q[3]_i_2  (LUT5)
+    uart_rx_inst/shift_reg_q[4]_i_1  (LUT5)
+    uart_rx_inst/shift_reg_q[5]_i_1  (LUT5)
+    uart_rx_inst/shift_reg_q[6]_i_1  (LUT5)
+    uart_rx_inst/shift_reg_q[7]_i_1  (LUT5)
+    uart_rx_inst/shift_reg_q[7]_i_2  (LUT5)
+    uart_rx_inst/shift_reg_q_reg[0]  (FDRE)
+    uart_rx_inst/shift_reg_q_reg[1]  (FDRE)
+    uart_rx_inst/shift_reg_q_reg[2]  (FDRE)
+    uart_rx_inst/shift_reg_q_reg[3]  (FDRE)
+    uart_rx_inst/shift_reg_q_reg[4]  (FDRE)
+    uart_rx_inst/shift_reg_q_reg[5]  (FDRE)
+    uart_rx_inst/shift_reg_q_reg[6]  (FDRE)
+    uart_rx_inst/shift_reg_q_reg[7]  (FDRE)
+    uart_rx_inst/tick_count_q[0]_i_1  (LUT3)
+    uart_rx_inst/tick_count_q[1]_i_1  (LUT4)
+    uart_rx_inst/tick_count_q[2]_i_1__0  (LUT5)
+    uart_rx_inst/tick_count_q[3]_i_1  (LUT3)
+    uart_rx_inst/tick_count_q[3]_i_2__0  (LUT6)
+    uart_rx_inst/tick_count_q_reg[0]  (FDRE)
+    uart_rx_inst/tick_count_q_reg[1]  (FDRE)
+    uart_rx_inst/tick_count_q_reg[2]  (FDRE)
+    uart_rx_inst/tick_count_q_reg[3]  (FDRE)
+
+INST: uart_tx_inst
+  Nets (54):
+    uart_tx_inst/<const1>
+    uart_tx_inst/FSM_sequential_state_q[0]_i_1__0_n_0
+    uart_tx_inst/FSM_sequential_state_q[0]_i_2_n_0
+    uart_tx_inst/FSM_sequential_state_q[1]_i_1_n_0
+    uart_tx_inst/FSM_sequential_state_q[1]_i_2__0_n_0
+    uart_tx_inst/bit_index_q[0]_i_1_n_0
+    uart_tx_inst/bit_index_q[1]_i_1_n_0
+    uart_tx_inst/bit_index_q[2]_i_1_n_0
+    uart_tx_inst/bit_index_q_reg_n_0_[0]
+    uart_tx_inst/bit_index_q_reg_n_0_[1]
+    uart_tx_inst/bit_index_q_reg_n_0_[2]
+    uart_tx_inst/clk_out1
+    uart_tx_inst/debounced_btn
+    uart_tx_inst/rst_sync
+    uart_tx_inst/shift_reg_d
+    uart_tx_inst/shift_reg_q[0]_i_1_n_0
+    uart_tx_inst/shift_reg_q[1]_i_1_n_0
+    uart_tx_inst/shift_reg_q[2]_i_1_n_0
+    uart_tx_inst/shift_reg_q[3]_i_1_n_0
+    uart_tx_inst/shift_reg_q[4]_i_1_n_0
+    uart_tx_inst/shift_reg_q[5]_i_1_n_0
+    uart_tx_inst/shift_reg_q[6]_i_1_n_0
+    uart_tx_inst/shift_reg_q[7]_i_2__0_n_0
+    uart_tx_inst/shift_reg_q_reg_n_0_[0]
+    uart_tx_inst/shift_reg_q_reg_n_0_[1]
+    uart_tx_inst/shift_reg_q_reg_n_0_[2]
+    uart_tx_inst/shift_reg_q_reg_n_0_[3]
+    uart_tx_inst/shift_reg_q_reg_n_0_[4]
+    uart_tx_inst/shift_reg_q_reg_n_0_[5]
+    uart_tx_inst/shift_reg_q_reg_n_0_[6]
+    uart_tx_inst/shift_reg_q_reg_n_0_[7]
+    uart_tx_inst/sig_d
+    uart_tx_inst/state_q[0]
+    uart_tx_inst/state_q[1]
+    uart_tx_inst/tick_16x
+    uart_tx_inst/tick_count_d
+    uart_tx_inst/tick_count_q[0]
+    uart_tx_inst/tick_count_q[0]_i_1__0_n_0
+    uart_tx_inst/tick_count_q[1]
+    uart_tx_inst/tick_count_q[1]_i_1__0_n_0
+    uart_tx_inst/tick_count_q[2]
+    uart_tx_inst/tick_count_q[2]_i_1_n_0
+    uart_tx_inst/tick_count_q[3]
+    uart_tx_inst/tick_count_q[3]_i_2_n_0
+    uart_tx_inst/tx_data_IBUF[0]
+    uart_tx_inst/tx_data_IBUF[1]
+    uart_tx_inst/tx_data_IBUF[2]
+    uart_tx_inst/tx_data_IBUF[3]
+    uart_tx_inst/tx_data_IBUF[4]
+    uart_tx_inst/tx_data_IBUF[5]
+    uart_tx_inst/tx_data_IBUF[6]
+    uart_tx_inst/tx_data_IBUF[7]
+    uart_tx_inst/uart_tx_out_OBUF
+    uart_tx_inst/uart_tx_out_d
+  Leaf Cells (41):
+    uart_tx_inst/FSM_sequential_state_q[0]_i_1__0  (LUT6)
+    uart_tx_inst/FSM_sequential_state_q[0]_i_2  (LUT3)
+    uart_tx_inst/FSM_sequential_state_q[1]_i_1  (LUT3)
+    uart_tx_inst/FSM_sequential_state_q[1]_i_2__0  (LUT5)
+    uart_tx_inst/FSM_sequential_state_q_reg[0]  (FDRE)
+    uart_tx_inst/FSM_sequential_state_q_reg[1]  (FDRE)
+    uart_tx_inst/VCC  (VCC)
+    uart_tx_inst/bit_index_q[0]_i_1  (LUT4)
+    uart_tx_inst/bit_index_q[1]_i_1  (LUT5)
+    uart_tx_inst/bit_index_q[2]_i_1  (LUT6)
+    uart_tx_inst/bit_index_q_reg[0]  (FDRE)
+    uart_tx_inst/bit_index_q_reg[1]  (FDRE)
+    uart_tx_inst/bit_index_q_reg[2]  (FDRE)
+    uart_tx_inst/shift_reg_q[0]_i_1  (LUT3)
+    uart_tx_inst/shift_reg_q[1]_i_1  (LUT3)
+    uart_tx_inst/shift_reg_q[2]_i_1  (LUT3)
+    uart_tx_inst/shift_reg_q[3]_i_1  (LUT3)
+    uart_tx_inst/shift_reg_q[4]_i_1  (LUT3)
+    uart_tx_inst/shift_reg_q[5]_i_1  (LUT3)
+    uart_tx_inst/shift_reg_q[6]_i_1  (LUT3)
+    uart_tx_inst/shift_reg_q[7]_i_1  (LUT5)
+    uart_tx_inst/shift_reg_q[7]_i_2__0  (LUT2)
+    uart_tx_inst/shift_reg_q_reg[0]  (FDRE)
+    uart_tx_inst/shift_reg_q_reg[1]  (FDRE)
+    uart_tx_inst/shift_reg_q_reg[2]  (FDRE)
+    uart_tx_inst/shift_reg_q_reg[3]  (FDRE)
+    uart_tx_inst/shift_reg_q_reg[4]  (FDRE)
+    uart_tx_inst/shift_reg_q_reg[5]  (FDRE)
+    uart_tx_inst/shift_reg_q_reg[6]  (FDRE)
+    uart_tx_inst/shift_reg_q_reg[7]  (FDRE)
+    uart_tx_inst/tick_count_q[0]_i_1__0  (LUT3)
+    uart_tx_inst/tick_count_q[1]_i_1__0  (LUT4)
+    uart_tx_inst/tick_count_q[2]_i_1  (LUT5)
+    uart_tx_inst/tick_count_q[3]_i_1__0  (LUT3)
+    uart_tx_inst/tick_count_q[3]_i_2  (LUT6)
+    uart_tx_inst/tick_count_q_reg[0]  (FDRE)
+    uart_tx_inst/tick_count_q_reg[1]  (FDRE)
+    uart_tx_inst/tick_count_q_reg[2]  (FDRE)
+    uart_tx_inst/tick_count_q_reg[3]  (FDRE)
+    uart_tx_inst/uart_tx_out_q_i_1  (LUT5)
+    uart_tx_inst/uart_tx_out_q_reg  (FDSE)
+
+INST: uart_tx_out_OBUF_inst
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: baud_gen_inst/FSM_sequential_state_q[1]_i_1__0
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: baud_gen_inst/GND
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: baud_gen_inst/VCC
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: baud_gen_inst/accumulator[0]_i_1
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: baud_gen_inst/accumulator[12]_i_2
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: baud_gen_inst/accumulator[16]_i_2
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: baud_gen_inst/accumulator[16]_i_3
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: baud_gen_inst/accumulator[20]_i_2
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: baud_gen_inst/accumulator[24]_i_2
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: baud_gen_inst/accumulator[24]_i_3
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: baud_gen_inst/accumulator[4]_i_2
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: baud_gen_inst/accumulator[4]_i_3
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: baud_gen_inst/accumulator[8]_i_2
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: baud_gen_inst/accumulator[8]_i_3
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: baud_gen_inst/accumulator[8]_i_4
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: baud_gen_inst/accumulator_reg[0]
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: baud_gen_inst/accumulator_reg[10]
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: baud_gen_inst/accumulator_reg[11]
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: baud_gen_inst/accumulator_reg[12]
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: baud_gen_inst/accumulator_reg[12]_i_1
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: baud_gen_inst/accumulator_reg[13]
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: baud_gen_inst/accumulator_reg[14]
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: baud_gen_inst/accumulator_reg[15]
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: baud_gen_inst/accumulator_reg[16]
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: baud_gen_inst/accumulator_reg[16]_i_1
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: baud_gen_inst/accumulator_reg[17]
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: baud_gen_inst/accumulator_reg[18]
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: baud_gen_inst/accumulator_reg[19]
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: baud_gen_inst/accumulator_reg[1]
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: baud_gen_inst/accumulator_reg[20]
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: baud_gen_inst/accumulator_reg[20]_i_1
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: baud_gen_inst/accumulator_reg[21]
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: baud_gen_inst/accumulator_reg[22]
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: baud_gen_inst/accumulator_reg[23]
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: baud_gen_inst/accumulator_reg[24]
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: baud_gen_inst/accumulator_reg[24]_i_1
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: baud_gen_inst/accumulator_reg[25]
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: baud_gen_inst/accumulator_reg[26]
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: baud_gen_inst/accumulator_reg[27]
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: baud_gen_inst/accumulator_reg[28]
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: baud_gen_inst/accumulator_reg[28]_i_1
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: baud_gen_inst/accumulator_reg[29]
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: baud_gen_inst/accumulator_reg[2]
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: baud_gen_inst/accumulator_reg[30]
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: baud_gen_inst/accumulator_reg[31]
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: baud_gen_inst/accumulator_reg[31]_i_1
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: baud_gen_inst/accumulator_reg[3]
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: baud_gen_inst/accumulator_reg[4]
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: baud_gen_inst/accumulator_reg[4]_i_1
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: baud_gen_inst/accumulator_reg[5]
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: baud_gen_inst/accumulator_reg[6]
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: baud_gen_inst/accumulator_reg[7]
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: baud_gen_inst/accumulator_reg[8]
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: baud_gen_inst/accumulator_reg[8]_i_1
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: baud_gen_inst/accumulator_reg[9]
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: baud_gen_inst/tick_16x_reg
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: clock_gen_inst/inst
+  Nets (10):
+    clock_gen_inst/inst/<const0>
+    clock_gen_inst/inst/<const1>
+    clock_gen_inst/inst/clk_in1
+    clock_gen_inst/inst/clk_in1_clk_wiz_0
+    clock_gen_inst/inst/clk_out1
+    clock_gen_inst/inst/clk_out1_clk_wiz_0
+    clock_gen_inst/inst/clkfbout_buf_clk_wiz_0
+    clock_gen_inst/inst/clkfbout_clk_wiz_0
+    clock_gen_inst/inst/locked
+    clock_gen_inst/inst/reset
+  Leaf Cells (6):
+    clock_gen_inst/inst/GND  (GND)
+    clock_gen_inst/inst/VCC  (VCC)
+    clock_gen_inst/inst/clkf_buf  (BUFG)
+    clock_gen_inst/inst/clkin1_ibufg  (IBUF)
+    clock_gen_inst/inst/clkout1_buf  (BUFG)
+    clock_gen_inst/inst/mmcm_adv_inst  (MMCME2_ADV)
+
+INST: clock_gen_inst/inst/GND
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: clock_gen_inst/inst/VCC
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: clock_gen_inst/inst/clkf_buf
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: clock_gen_inst/inst/clkin1_ibufg
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: clock_gen_inst/inst/clkout1_buf
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: clock_gen_inst/inst/mmcm_adv_inst
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: debouncer_inst/GND
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: debouncer_inst/VCC
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: debouncer_inst/btn_out_i_1
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: debouncer_inst/btn_out_reg
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: debouncer_inst/cnt[0]_i_1
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: debouncer_inst/cnt[0]_i_3
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: debouncer_inst/cnt[0]_i_4
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: debouncer_inst/cnt[0]_i_5
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: debouncer_inst/cnt[0]_i_6
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: debouncer_inst/cnt[0]_i_7
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: debouncer_inst/cnt_reg[0]
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: debouncer_inst/cnt_reg[0]_i_2
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: debouncer_inst/cnt_reg[10]
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: debouncer_inst/cnt_reg[11]
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: debouncer_inst/cnt_reg[12]
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: debouncer_inst/cnt_reg[12]_i_1
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: debouncer_inst/cnt_reg[13]
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: debouncer_inst/cnt_reg[14]
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: debouncer_inst/cnt_reg[15]
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: debouncer_inst/cnt_reg[16]
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: debouncer_inst/cnt_reg[16]_i_1
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: debouncer_inst/cnt_reg[17]
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: debouncer_inst/cnt_reg[18]
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: debouncer_inst/cnt_reg[1]
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: debouncer_inst/cnt_reg[2]
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: debouncer_inst/cnt_reg[3]
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: debouncer_inst/cnt_reg[4]
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: debouncer_inst/cnt_reg[4]_i_1
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: debouncer_inst/cnt_reg[5]
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: debouncer_inst/cnt_reg[6]
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: debouncer_inst/cnt_reg[7]
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: debouncer_inst/cnt_reg[8]
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: debouncer_inst/cnt_reg[8]_i_1
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: debouncer_inst/cnt_reg[9]
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: debouncer_inst/sync0_reg
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: debouncer_inst/sync1_reg
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: edge_tx/VCC
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: edge_tx/sig_d_reg
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: sync_rx/VCC
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: sync_rx/frame_error_sticky_q_i_2
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: sync_rx/meta_q_reg
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: sync_rx/sync_q_reg
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: uart_rx_inst/FSM_sequential_state_q[0]_i_1
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: uart_rx_inst/FSM_sequential_state_q[1]_i_2
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: uart_rx_inst/FSM_sequential_state_q[1]_i_3
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: uart_rx_inst/FSM_sequential_state_q[1]_i_4
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: uart_rx_inst/FSM_sequential_state_q_reg[0]
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: uart_rx_inst/FSM_sequential_state_q_reg[1]
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: uart_rx_inst/VCC
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: uart_rx_inst/bit_index_q[0]_i_1
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: uart_rx_inst/bit_index_q[1]_i_1
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: uart_rx_inst/bit_index_q[2]_i_1
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: uart_rx_inst/bit_index_q[3]_i_1
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: uart_rx_inst/bit_index_q[3]_i_2
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: uart_rx_inst/bit_index_q[3]_i_3
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: uart_rx_inst/bit_index_q[3]_i_4
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: uart_rx_inst/bit_index_q_reg[0]
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: uart_rx_inst/bit_index_q_reg[1]
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: uart_rx_inst/bit_index_q_reg[2]
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: uart_rx_inst/bit_index_q_reg[3]
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: uart_rx_inst/frame_error_sticky_q_i_1
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: uart_rx_inst/frame_error_sticky_q_reg
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: uart_rx_inst/rx_data_q[7]_i_1
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: uart_rx_inst/rx_data_q[7]_i_2
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: uart_rx_inst/rx_data_q_reg[0]
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: uart_rx_inst/rx_data_q_reg[1]
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: uart_rx_inst/rx_data_q_reg[2]
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: uart_rx_inst/rx_data_q_reg[3]
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: uart_rx_inst/rx_data_q_reg[4]
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: uart_rx_inst/rx_data_q_reg[5]
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: uart_rx_inst/rx_data_q_reg[6]
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: uart_rx_inst/rx_data_q_reg[7]
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: uart_rx_inst/shift_reg_q[0]_i_1
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: uart_rx_inst/shift_reg_q[1]_i_1
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: uart_rx_inst/shift_reg_q[2]_i_1
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: uart_rx_inst/shift_reg_q[3]_i_1
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: uart_rx_inst/shift_reg_q[3]_i_2
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: uart_rx_inst/shift_reg_q[4]_i_1
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: uart_rx_inst/shift_reg_q[5]_i_1
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: uart_rx_inst/shift_reg_q[6]_i_1
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: uart_rx_inst/shift_reg_q[7]_i_1
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: uart_rx_inst/shift_reg_q[7]_i_2
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: uart_rx_inst/shift_reg_q_reg[0]
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: uart_rx_inst/shift_reg_q_reg[1]
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: uart_rx_inst/shift_reg_q_reg[2]
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: uart_rx_inst/shift_reg_q_reg[3]
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: uart_rx_inst/shift_reg_q_reg[4]
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: uart_rx_inst/shift_reg_q_reg[5]
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: uart_rx_inst/shift_reg_q_reg[6]
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: uart_rx_inst/shift_reg_q_reg[7]
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: uart_rx_inst/tick_count_q[0]_i_1
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: uart_rx_inst/tick_count_q[1]_i_1
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: uart_rx_inst/tick_count_q[2]_i_1__0
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: uart_rx_inst/tick_count_q[3]_i_1
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: uart_rx_inst/tick_count_q[3]_i_2__0
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: uart_rx_inst/tick_count_q_reg[0]
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: uart_rx_inst/tick_count_q_reg[1]
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: uart_rx_inst/tick_count_q_reg[2]
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: uart_rx_inst/tick_count_q_reg[3]
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: uart_tx_inst/FSM_sequential_state_q[0]_i_1__0
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: uart_tx_inst/FSM_sequential_state_q[0]_i_2
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: uart_tx_inst/FSM_sequential_state_q[1]_i_1
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: uart_tx_inst/FSM_sequential_state_q[1]_i_2__0
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: uart_tx_inst/FSM_sequential_state_q_reg[0]
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: uart_tx_inst/FSM_sequential_state_q_reg[1]
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: uart_tx_inst/VCC
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: uart_tx_inst/bit_index_q[0]_i_1
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: uart_tx_inst/bit_index_q[1]_i_1
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: uart_tx_inst/bit_index_q[2]_i_1
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: uart_tx_inst/bit_index_q_reg[0]
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: uart_tx_inst/bit_index_q_reg[1]
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: uart_tx_inst/bit_index_q_reg[2]
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: uart_tx_inst/shift_reg_q[0]_i_1
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: uart_tx_inst/shift_reg_q[1]_i_1
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: uart_tx_inst/shift_reg_q[2]_i_1
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: uart_tx_inst/shift_reg_q[3]_i_1
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: uart_tx_inst/shift_reg_q[4]_i_1
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: uart_tx_inst/shift_reg_q[5]_i_1
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: uart_tx_inst/shift_reg_q[6]_i_1
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: uart_tx_inst/shift_reg_q[7]_i_1
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: uart_tx_inst/shift_reg_q[7]_i_2__0
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: uart_tx_inst/shift_reg_q_reg[0]
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: uart_tx_inst/shift_reg_q_reg[1]
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: uart_tx_inst/shift_reg_q_reg[2]
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: uart_tx_inst/shift_reg_q_reg[3]
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: uart_tx_inst/shift_reg_q_reg[4]
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: uart_tx_inst/shift_reg_q_reg[5]
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: uart_tx_inst/shift_reg_q_reg[6]
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: uart_tx_inst/shift_reg_q_reg[7]
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: uart_tx_inst/tick_count_q[0]_i_1__0
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: uart_tx_inst/tick_count_q[1]_i_1__0
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: uart_tx_inst/tick_count_q[2]_i_1
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: uart_tx_inst/tick_count_q[3]_i_1__0
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: uart_tx_inst/tick_count_q[3]_i_2
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: uart_tx_inst/tick_count_q_reg[0]
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: uart_tx_inst/tick_count_q_reg[1]
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: uart_tx_inst/tick_count_q_reg[2]
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: uart_tx_inst/tick_count_q_reg[3]
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: uart_tx_inst/uart_tx_out_q_i_1
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+
+INST: uart_tx_inst/uart_tx_out_q_reg
+  Nets (0):
+    <none>
+  Leaf Cells (0):
+    <none>
+

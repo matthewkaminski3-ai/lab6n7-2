@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="W:/ELEC 3500/lab6n7/Work/lab6n7/lab6n7.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wdb" id="1">
+         <top_modules>
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="130,978"></ZoomStartTime>
+      <ZoomEndTime time="131,076"></ZoomEndTime>
+      <Cursor1Time time="131,026"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="301"></NameColumnWidth>
+      <ValueColumnWidth column_width="72"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="9" />
+   <wave_markers>
+   </wave_markers>
+   <wvobject fp_name="uart_rx_inst/Q" type="array">
+      <obj_property name="ElementShortName">uart_rx_inst/Q[7:0]</obj_property>
+      <obj_property name="ObjectShortName">Q[7:0]</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+      <obj_property name="Radix">ASCIIRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="uart_rx_inst/state_q" type="array">
+      <obj_property name="ElementShortName">uart_rx_inst/state_q[1:0]</obj_property>
+      <obj_property name="ObjectShortName">state_q[1:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="uart_rx_inst/tick_count_q" type="array">
+      <obj_property name="ElementShortName">uart_rx_inst/tick_count_q[3:0]</obj_property>
+      <obj_property name="ObjectShortName">tick_count_q[3:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="uart_rx_inst/bit_index_q" type="array">
+      <obj_property name="ElementShortName">uart_rx_inst/bit_index_q[3:0]</obj_property>
+      <obj_property name="ObjectShortName">bit_index_q[3:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="uart_rx_inst/frame_error_sticky_d" type="logic">
+      <obj_property name="ElementShortName">uart_rx_inst/frame_error_sticky_d</obj_property>
+      <obj_property name="ObjectShortName">frame_error_sticky_d</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="uart_rx_inst/frame_error_sticky_OBUF" type="logic">
+      <obj_property name="ElementShortName">uart_rx_inst/frame_error_sticky_OBUF</obj_property>
+      <obj_property name="ObjectShortName">frame_error_sticky_OBUF</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="uart_rx_inst/frame_error_sticky_q_reg_0" type="logic">
+      <obj_property name="ElementShortName">uart_rx_inst/frame_error_sticky_q_reg_0</obj_property>
+      <obj_property name="ObjectShortName">frame_error_sticky_q_reg_0</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="baud_gen_inst/tick_16x" type="logic">
+      <obj_property name="ElementShortName">baud_gen_inst/tick_16x</obj_property>
+      <obj_property name="ObjectShortName">tick_16x</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="sync_rx/uart_rx_sync" type="logic">
+      <obj_property name="ElementShortName">sync_rx/uart_rx_sync</obj_property>
+      <obj_property name="ObjectShortName">uart_rx_sync</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+</wave_config>
